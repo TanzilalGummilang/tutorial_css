@@ -1,0 +1,41 @@
+/*akan mengeksekusi yg paling akhir*/
+p {color: red;}
+
+p {color: green;}
+
+/*akan mengeksekusi yg lebih berat/spesifik*/
+#p1 {color: red;}
+
+p {color: green;}
+
+/*0 inline, 1 id, 0 class, 2 elemen = 0102*/
+ul#sarapan li {
+	color: green;
+}
+
+/*0 inline, 0 id, 1 class, 0 elemen = 0010*/
+.favorit {
+	color: red;
+}
+
+/*0 inline, 1 id, 0 class, 2 elemen = 0102*/
+ul#sarapan1 li {
+	color: green;
+}
+
+/*0 inline, 1 id, 1 class, 2 elemen = 0112*/
+ul#sarapan1 li.favorit1 {
+	color: red;
+}
+
+/*specificity=
+setiap deklarasi CSS (selector) memiliki berat yg berbeda.
+Berat tsb menentukan seberapa spesifik sebuah elemen dapat
+dipilih oleh selector*/
+/*http://www.smashingmagazine.com/2010/04/07/
+css-specificity-and-inheritance/*/
+
+/*inline=1000 */
+/*id=100 */
+/*class=10 */
+/*elemen=1

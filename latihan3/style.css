@@ -1,0 +1,17 @@
+h1 {
+	font-family: serif;
+	color: darkred;
+}
+
+p {
+	font-family: times new roman;
+	color: navy;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+/*color: nama warna / hexadecimal / rgb(...) */
+/*text-decoration: none, undeline, overline, line-through*/
+/*text-transform: none, uppercase, lowercase, capitalize*/
+/*letter-spacing (jarak huruf): normal, px*/
+/*word-spacing (jarak kata): normal, px*/

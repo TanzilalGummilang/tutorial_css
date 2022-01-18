@@ -1,0 +1,9 @@
+
+body {
+		font: italic normal bold 16px/18px helvetica arial calibri;
+}
+/*shorthand*/
+/*urutannya harus sesuai*/
+/*font: font-style font-variant font-weight font-size line-height font-family*/
+/*font-size dan font-family WAJIB ADA, sisanya optional */
+/*font-family boleh lebih dari satu, tetapi dibaca mesin dari awal*/

@@ -1,0 +1,56 @@
+body {
+	font-family: arial;
+	background-color: lightgreen;
+}
+
+h1, h2 {
+	color: maroon;
+}
+
+h2 {
+	font-style: italic;
+}
+
+a {
+	color: red;
+}
+
+ul li a {
+	color: black;
+}
+
+.p1 {
+	color: navy;
+}
+
+.p2 {
+	color: brown;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+p.bold {
+	font-size: 20px;
+}
+
+/*digunakan pd css untuk mengenali elemen HTML yg akan diberi style*/
+/*http://www.w3schools.com/cssref/css_selector.asp*/
+/*selector:
+-elemen HTML
+-id: #id
+-class: .class
+-complex selector*/
+/*id:
+-sebuah elemen HTML hanya boleh memilki 1 id
+-setiap halaman hanya boleh memilki 1 elemen dengan id tersebut
+-dapat digunakan sebagai penanda halaman untuk link
+-digunakan juga untuk JS
+-sebaiknya tidak digunakan pd CSS (lebih baik pake class)*/
+/*class:
+-bisa banyak class yg dipakai dalam 1 elemen*/

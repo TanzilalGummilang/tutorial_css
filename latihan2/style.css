@@ -1,0 +1,22 @@
+h1{
+	color: darkred;
+	font-family: serif;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	font-variant: small-caps;
+}
+
+p{
+	font-family: "times new roman", arial, serif;
+	font-size: 120%;
+	font-style: oblique;
+	line-height: 3em;
+}
+
+/*font-family (jenis font): (arial,verdana,"times new roman")nama font, (sans-serif/serif) generic family*/
+/*font-size (ukuran font): px, %, em*/
+/*font-weight (ketebalan font): ligher, normal, 100-900, bold, bolder*/
+/*font-variant (ubah font jadi small caps): normal, small-caps*/
+/*font-style (font-cetak miring): normal, italic, oblique*/
+/*line-height (atur spasi antar baris): normal, px, em*/
